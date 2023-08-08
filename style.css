@@ -35,7 +35,7 @@ nav button {
 .hero-section{
   /* border: 2px solid black; */
   text-align: center;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 .hero-content h2{
   width: 75%;
@@ -73,6 +73,7 @@ nav button {
   width: 78%;
   box-shadow: -1px 1px 1px 1px rgb(226,225,225);
   border-radius: 10px;
+  margin-top: 2.5rem;
 }
 .card-1 img{
   width: 95%;
@@ -89,34 +90,50 @@ nav button {
   padding: 2rem 0;
 }
 
-
-/* .hero-content h2{
-    width: 75%;
-    margin: auto;
-    line-height: 2rem;
+.card-2 img{
+  width: 95%;
+  margin-top: 2rem;
+}
+.card-2 h2{
+  margin-top: 2rem;
+}
+.card-2 p{
+  padding: 2rem;
+  line-height: 1.3rem;
+  color: hsl(208, 11%, 55%);
+}
+.card-3 img{
+  width: 95%;
+  margin-top: 2rem;
+}
+.card-3 h2{
+  margin-top: 2.5rem;
 }
 
-.hero-content p{
-    width: 70%;
-    margin: auto;
-    line-height: 1.2rem;
-    margin-top: 1.5rem;
+.card-3 p{
+  padding: 2rem;
+  line-height: 1.3rem;
+  color: hsl(208, 11%, 55%);
 }
 
-.hero-content button{
-    margin: 2rem 0 3rem 0;
-    height: 2.5rem;
-    border-radius: 5rem;
-    width: 60%;
-    margin: auto;
-    border: none;
-    color: #FEFFFF;
-    background-color: hsl(322, 100%, 66%);
-
+.ready{
+  text-align: center;
+  margin: auto;
 }
 
-.hero-section img{
-width: 75%;
-} */
+.started h2{
+  margin-top: 2rem;
+}
+.started button{
+  margin-top: 1.5rem;
+  width: 68%;
+  border-radius: 3rem;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  padding: 0.7rem;
+  border: none;
+}
+
+
 
 
