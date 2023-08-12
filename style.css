@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -9,9 +12,10 @@
 }
 
 header {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background: url(asset/bg-hero-mobile.svg) hsl(193, 100%, 96%) no-repeat;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -36,18 +40,21 @@ nav button {
   /* border: 2px solid black; */
   text-align: center;
   /* margin-top: 3rem; */
+
 }
 .hero-content h2{
   width: 75%;
   margin: auto;
   line-height: 2rem;
   margin-top: 4rem;
+  font-family: 'poppins', sans-serif;
 }
 .hero-content p{
   width: 70%;
   margin: auto;
   line-height: 1.3rem;
   margin-top: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
 }
 .hero-content button{
   width: 68%;
@@ -70,10 +77,11 @@ nav button {
 .cards{
   text-align: center;
   margin: auto;
-  width: 78%;
+  width: 90%;
   box-shadow: -1px 1px 1px 1px rgb(226,225,225);
   border-radius: 10px;
   margin-top: 2.5rem;
+  padding: 1.2rem;
 }
 .card-1 img{
   width: 95%;
@@ -81,13 +89,15 @@ nav button {
 }
 .card-1 h2{
   margin-top: 2.5rem;
+  font-family: 'poppins', sans-serif;
 
 }
 .card-1 p{
-  /* margin-top: 1.5rem; */
   line-height: 1.3rem;
   color: hsl(208, 11%, 55%);
-  padding: 2rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card-2 img{
@@ -95,12 +105,15 @@ nav button {
   margin-top: 2rem;
 }
 .card-2 h2{
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+  font-family: 'poppins', sans-serif;
 }
 .card-2 p{
-  padding: 2rem;
   line-height: 1.3rem;
   color: hsl(208, 11%, 55%);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 .card-3 img{
   width: 95%;
@@ -108,23 +121,36 @@ nav button {
 }
 .card-3 h2{
   margin-top: 2.5rem;
+  font-family: 'poppins', sans-serif;
+
 }
 
 .card-3 p{
-  padding: 2rem;
   line-height: 1.3rem;
   color: hsl(208, 11%, 55%);
+  font-family: 'Open Sans', sans-serif;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
 }
-
-.ready{
+.bottom{
   text-align: center;
   margin: auto;
+  width: 90%;
+  box-shadow: -1px 1px 1px 1px rgb(226,225,225);
+  border-radius: 10px;
+  margin-top: 2.5rem;
+  padding: 1.2rem;
+  position: relative;
+  top: 40px;
+  background-color: white;
 }
-
-.started h2{
+.bottom h2{
   margin-top: 2rem;
+  font-family: 'poppins', sans-serif;
+  /* width: 115%; */
+  font-size: medium;
 }
-.started button{
+.bottom button{
   margin-top: 1.5rem;
   width: 68%;
   border-radius: 3rem;
@@ -133,7 +159,54 @@ nav button {
   padding: 0.7rem;
   border: none;
 }
+footer{
+  background-color: #09252E;
+  color: white;
+  padding-top: 7rem;
+  padding-left: 1.5rem;
+}
+.huddle img{
+  width: 25%;
+}
+ul{
+  list-style: none;
+  margin-top: 3rem;
+  line-height: 2rem;
 
+}
+.location img{
+  margin-top: 1rem;
+}
+.phone{
+  margin-top: 1rem;
+}
+.email img{
+  margin-top: 1rem;
+}
 
-
+.media{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.fa-facebook{
+  border: white 1px solid;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.fa-twitter{
+  border: white 1px solid;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.fa-instagram{
+  border: white 1px solid;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.copyright{
+  text-align: center;
+  font-size: 10px;
+  margin-top: 2rem;
+}
 
